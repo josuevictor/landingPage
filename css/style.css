@@ -14,7 +14,6 @@
 /*container desb. cartao*/
 .container-cartao{
     display: flex;
-    flex-direction: column;
     width: 800px;
     height: 450px;
     border-radius: 5px;
@@ -24,9 +23,9 @@
 /*principal*/
 .main{
     display: flex;
-    margin: auto;
     flex-direction: column;
     align-items: center;
+    margin: auto;
     border: solid;
 }
 
@@ -103,8 +102,6 @@ p{
 
 .img-cell{
     display: flex;
-    justify-content: end;
-    position: absolute;
     background-image: url(/assets/img/Celular@2x.png);
     background-repeat: no-repeat;
     width: 250px;
