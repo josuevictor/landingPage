@@ -39,7 +39,7 @@
 
 .form-cpf{
     display: flex;
-    gap: 20%;
+    gap: 10%;
     flex-direction: column;
     align-items: center; 
     border: solid;
@@ -74,7 +74,7 @@ p{
     -moz-appearance: textfield;
      appearance: textfield;
      width: 380px;
-     height: 40px;
+     height: 50px;
      border-radius: 5px;
      text-align: center;
      font-size: 1.5rem;
