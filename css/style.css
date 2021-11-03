@@ -8,13 +8,14 @@
 
 .container{
     display: flex;
+    justify-content: center;
 }
 
 
 /*container desb. cartao*/
 .container-cartao{
     display: flex;
-    width: 800px;
+    width: 900px;
     height: 450px;
     border-radius: 5px;
     background-color: #0A5F55;
@@ -26,7 +27,6 @@
     flex-direction: column;
     align-items: center;
     margin: auto;
-    border: solid;
 }
 
 
@@ -39,10 +39,8 @@
 
 .form-cpf{
     display: flex;
-    gap: 10%;
     flex-direction: column;
-    align-items: center; 
-    border: solid;
+    align-items: center;
 }
 
 .titulo span{
@@ -50,6 +48,7 @@
 }
 
 .paragrafo-form{
+    margin-bottom: 20px;
     color: #fff;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
@@ -98,7 +97,23 @@ p{
 }
 
 
-/*imagem celular*/
+/*imagns*/
+
+.forma-topo{
+    display: flex;
+    align-items: flex-end;
+    background-image: url(/assets/img/formaTopo.svg);
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 70px;
+}
+
+
+.forma-baixo{
+    display: flex;
+    background-image: url(/assets/img/formaBaixo.svg);
+    background-repeat: no-repeat;
+}
 
 
 .img-cell{
