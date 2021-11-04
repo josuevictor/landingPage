@@ -15,8 +15,8 @@
 /*container desb. cartao*/
 .container-cartao{
     display: flex;
-    width: 900px;
-    height: 450px;
+    width: 800px;
+    height: 400px;
     border-radius: 5px;
     background-color: #0A5F55;
 }
@@ -25,31 +25,39 @@
 .main{
     display: flex;
     flex-direction: column;
-    align-items: center;
     margin: auto;
+    padding: 1vh;
 }
 
 
 .titulo{
-    margin-bottom: 10vh;
+    margin-bottom: 5vh;
     color: #B1D34B;
-    font-size: 2.8em;
+    font-size: 2.5em;
     font-family: 'UnimedSlab2020-Bd';
-}
-
-.form-cpf{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .titulo span{
     color: #fff;
 }
 
+#container-cpf{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(/assets/img/Linhas.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 450px;
+    height: 200px;
+}
+
+
 .paragrafo-form{
-    margin-bottom: 20px;
     color: #fff;
+    font-size: .9em;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
@@ -70,14 +78,15 @@ p{
 
 
 .input-cpf{ 
+    margin: 20px 0;
     -moz-appearance: textfield;
      appearance: textfield;
-     width: 380px;
-     height: 50px;
+     width: 270px;
+     height: 35px;
      border-radius: 5px;
      text-align: center;
      font-size: 1.5rem;
-    letter-spacing: 2px;
+     letter-spacing: 2px;
 }
 
 .input-cpf:focus{
@@ -87,39 +96,33 @@ p{
 .input-enviar{
     background-color: #B1D34B;  
     border-radius: 5px;
-    width: 100px;
-    height: 40px;
+    width: 120px;
+    height: 30px;
     cursor: pointer;
     font-size: 1.3rem;
     font-weight: bold;
     color: #0A5F55;
-    margin-top: 10px;
 }
 
 
 /*imagns*/
 
-.forma-topo{
+/* .linhas{
     display: flex;
-    align-items: flex-end;
-    background-image: url(/assets/img/formaTopo.svg);
+    background-image: url(/assets/img/Linhas.svg);
     background-repeat: no-repeat;
-    width: 60px;
-    height: 70px;
-}
-
-
-.forma-baixo{
-    display: flex;
-    background-image: url(/assets/img/formaBaixo.svg);
-    background-repeat: no-repeat;
-}
+    background-size: 500px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+} */
 
 
 .img-cell{
     display: flex;
     background-image: url(/assets/img/Celular@2x.png);
     background-repeat: no-repeat;
+    background-size: 230px;
     width: 250px;
     height: 450px;
 }
