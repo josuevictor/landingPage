@@ -15,7 +15,7 @@
 /*container desb. cartao*/
 .container-cartao{
     display: flex;
-    width: 800px;
+    width: 750px;
     height: 400px;
     border-radius: 5px;
     background-color: #0A5F55;
@@ -41,6 +41,7 @@
     color: #fff;
 }
 
+
 #container-cpf{
     display: flex;
     align-items: center;
@@ -54,6 +55,38 @@
     height: 200px;
 }
 
+/*desbloqueado*/
+
+#result{
+    background-color: #fff;
+    width: 420px;
+    height: 170px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+
+
+.result{
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.p-result{
+    color: #0A5F55;
+    font-weight: bold;
+    font-size: 1.5em;
+    font-family: 'UnimedSans2020-Bd';
+}
+
+.txt-result{
+    color: #0A5F55;
+    font-family: 'UnimedSans2020-Rg';
+}
+
+/*form-cpf*/
 
 .paragrafo-form{
     color: #fff;

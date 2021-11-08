@@ -1,4 +1,5 @@
 function enviar(){
-    window.alert('FOI')
+        document.querySelector('#result').style.display = "block"   
+    
 }
 
