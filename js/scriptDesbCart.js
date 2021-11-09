@@ -1,5 +1,7 @@
-function enviar(){
-        document.querySelector('#result').style.display = "block"   
-    
-}
+function carregar(){
+        document.querySelector('#result').style.visibility = "hidden"                     
+  }
 
+function desbCartao(){
+      document.querySelector('#result').style.visibility = "visible"                      
+}

@@ -9,7 +9,7 @@
     <script src="js/scriptDesbCart.js"></script>
     <title>Document</title>
 </head>
-<body>
+<body onload="carregar()">
     <div class="container">
         <div class="container-cartao">
              
@@ -17,11 +17,8 @@
                 <h1 class="titulo"> <span>PARA</span> DESBLOQUEAR<br><span>SEU</span> CARTÃO UNIMED</h1> 
                 <div id="container-cpf">
 
-                    <p class="paragrafo-form">
-                        <span class="txt-digite-cpf">DIGITE O CPF</span> NO ESPAÇO ABAIXO E <span class="txt-clique-enviar">CLIQUE EM ENVIAR</span>
-                    </p>
-                    <input class="input-cpf" type="number" placeholder="000.000.000-00">
-                    <input class="input-enviar" type="submit" value="ENVIAR" onclick="enviar()">
+                    <input class="input-cartao" id="inputCarteira" type="number" value="codCarteira" readonly>
+                    <input class="input-desbloquear" type="submit" value="Desbloquear" onclick="desbCartao()">
                     <div class="linhas">
 
                     </div>

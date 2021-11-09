@@ -57,21 +57,16 @@
 
 /*desbloqueado*/
 
-#result{
+.result{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #fff;
     width: 420px;
     height: 170px;
     border-radius: 20px;
     position: absolute;
-}
-
-
-
-.result{
-    display: none;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
 .p-result{
@@ -88,13 +83,6 @@
 
 /*form-cpf*/
 
-.paragrafo-form{
-    color: #fff;
-    font-size: .9em;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-}
-
 .txt-digite-cpf{
     font-weight: bold;
 }
@@ -108,13 +96,11 @@ p{
     display: inline;
 }
 
-
-
-.input-cpf{ 
+.input-cartao{ 
     margin: 20px 0;
     -moz-appearance: textfield;
      appearance: textfield;
-     width: 270px;
+     width: 390px;
      height: 35px;
      border-radius: 5px;
      text-align: center;
@@ -126,30 +112,22 @@ p{
     outline: none;
 }
 
-.input-enviar{
+.input-desbloquear{
     background-color: #B1D34B;  
     border-radius: 5px;
-    width: 120px;
-    height: 30px;
+    width: 150px;
+    height: 40px;
     cursor: pointer;
     font-size: 1.3rem;
     font-weight: bold;
     color: #0A5F55;
 }
 
+.input-desbloquear:hover{
+    background-color: #98c415c9;
+}
 
-/*imagns*/
-
-/* .linhas{
-    display: flex;
-    background-image: url(/assets/img/Linhas.svg);
-    background-repeat: no-repeat;
-    background-size: 500px;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-} */
-
+/*imagem celular*/
 
 .img-cell{
     display: flex;
